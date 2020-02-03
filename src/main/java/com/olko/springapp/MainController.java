@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @Autowired
-    private BuildProperties buildProperties;
+    BuildProperties buildProperties;
 
     @Autowired
-    private Environment environment;
+    Environment environment;
 
     @GetMapping("/buildInfo")
     public BuildInfo getBuildInfo() {
