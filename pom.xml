@@ -13,7 +13,7 @@
     <groupId>com.olko</groupId>
     <artifactId>spring-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot</name>
+    <name>spring-app</name>
     <packaging>war</packaging>
 
     <properties>
@@ -36,6 +36,7 @@
     </dependencies>
 
     <build>
+        <finalName>spring-app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
